@@ -8,24 +8,15 @@ repeat the same for all the array until the array will ordered */
 
 using namespace std;
 
-void ordered(int vektor[], int);
 
-int main(int argc, char const *argv[]) {
+int main() {
 
-  const int size = 4;
   int vektor[] = {4, 8, 6, 9};
-
-  ordered(vektor, size);
-
-  return 0;
-}
-
-void ordered(int vektor[], int size) {
   int aux;
 
-  /*BUBBLE SORT */
-  for (int i = 0; i < size; i++) {
-    for (int j = 0; j < size; j++) {
+    /*BUBBLE SORT */
+  for (int i = 0; i < 4; i++) {
+    for (int j = 0; j < 4; j++) {
       if (vektor[j] > vektor[j+1]) {
         aux = vektor[j];
         vektor[j] = vektor[j+1];
@@ -36,14 +27,17 @@ void ordered(int vektor[], int size) {
 
   std::cout << "\nOrdered ascendant: " << endl;
 
-  for (int i = 0; i < size; i++) {
+  for (int i = 0; i < 4; i++) {
     std::cout << vektor[i] << " ";
   }
 
   std::cout << "\nOrdered descending: " << endl;
 
-  for (int i = size; i >= 0; i--) {
+  for (int i = 4; i >= 0; i--) {
     std::cout << vektor[i] << " ";
   }
 
+
+  return 0;
 }
+
