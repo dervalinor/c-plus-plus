@@ -4,6 +4,7 @@ the array.
 the condition for interchange position of the array is:
 if number actual > numero next -- change of the position
 repeat the same for all the array until the array will ordered */
+
 #include <iostream>
 
 using namespace std;

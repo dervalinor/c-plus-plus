@@ -1,3 +1,5 @@
+//BEST METHOD WITHOUT ERROR
+
 /*ordering for insertion:
 this require n^2 operations for order n elements 
 CONDITIONAL:
@@ -25,6 +27,8 @@ void vektor_order(){
 	int pos, aux; //pos for save the position
 	//and aux for change the position
 
+
+	//METHOD INSERTION
 	for (int i = 0; i < 4; ++i)
 	{
 
@@ -44,7 +48,7 @@ void vektor_order(){
 
 	}
 
-	cout << "Ordered array: " << endl;
+	cout << "\nOrdered array: " << endl;
 
 	for (int i = 0; i < 4; ++i)
 	{
