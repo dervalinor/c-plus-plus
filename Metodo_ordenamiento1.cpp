@@ -25,17 +25,19 @@ int main() {
     }
   }
 
-  std::cout << "\nOrdered ascendant: " << endl;
+  cout << "\nOrdered ascendant: " << endl;
 
   for (int i = 0; i < 4; i++) {
-    std::cout << vektor[i] << " ";
+    cout << vektor[i] << " ";
   }
 
-  std::cout << "\nOrdered descending: " << endl;
+  cout << "\nOrdered descending: " << endl;
 
   for (int i = 4; i >= 0; i--) {
     std::cout << vektor[i] << " ";
   }
+
+  cout << '\n';
 
 
   return 0;
